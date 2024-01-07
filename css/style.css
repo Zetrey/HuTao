@@ -1,7 +1,6 @@
 body {
     max-width: 100%;
     margin: 0;
-    padding: 0;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -17,10 +16,10 @@ body {
 }
 #coverBox {
     box-shadow: none;
-    border: 0;
 }
 #coverBox > img {
     object-fit: cover;
+    display: block;
 }
 #block0 {
     float: right;
@@ -52,4 +51,28 @@ h1 {
     text-align: center;
     text-decoration: underline;
     margin: 0px;
+}
+#tailBox {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(66,32,50,1);
+    margin: 0;
+}
+#playbt {
+    background-color: rgba(126,59,62,1);
+    height: 50px;
+    width: 110px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+    cursor: pointer;
+}
+#playbt:hover {
+    background-color: rgba(120,53,56,1);
 }
