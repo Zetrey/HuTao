@@ -6,10 +6,10 @@ function bf() {
     if (audio !== null) {
         if (audio.paused) {
             audio.play();
-            bt.innerText = "ÔİÍ£";
+            bt.innerText = "æš‚åœ";
         } else {
             audio.pause();
-            bt.innerText = "²¥·Å";
+            bt.innerText = "æ’­æ”¾";
         }
     }
 }
